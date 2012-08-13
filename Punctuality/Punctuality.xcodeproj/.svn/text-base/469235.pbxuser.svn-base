@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PunctualityAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 425}}";
+			sepNavSelRange = "{166, 0}";
+			sepNavVisRange = "{0, 463}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 975}}";
+			sepNavSelRange = "{1890, 0}";
+			sepNavVisRange = "{1268, 702}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Punctuality */ = {
+		activeExec = 0;
+		executables = (
+			EEF2F43212E5D34A0009BE7B /* Punctuality */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = EEF2F46612E5D3DF0009BE7B /* Punctuality-iPad */;
+		activeTarget = EEF2F44A12E5D3DF0009BE7B /* Punctuality-iPad */;
+		addToTargets = (
+			EEF2F44A12E5D3DF0009BE7B /* Punctuality-iPad */,
+		);
+		codeSenseManager = EEF2F44812E5D3570009BE7B /* Code sense */;
+		executables = (
+			EEF2F43212E5D34A0009BE7B /* Punctuality */,
+			EEF2F46612E5D3DF0009BE7B /* Punctuality-iPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					451,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					387,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317140685;
+			PBXWorkspaceStateSaveDate = 317140685;
+		};
+		perUserProjectItems = {
+			EE52DBF912E728C600F14497 /* PlistBookmark */ = EE52DBF912E728C600F14497 /* PlistBookmark */;
+			EE52DC0712E72EBC00F14497 /* PBXTextBookmark */ = EE52DC0712E72EBC00F14497 /* PBXTextBookmark */;
+			EE52DC0812E72EBC00F14497 /* PBXTextBookmark */ = EE52DC0812E72EBC00F14497 /* PBXTextBookmark */;
+			EE52DC1012E72EBC00F14497 /* PBXTextBookmark */ = EE52DC1012E72EBC00F14497 /* PBXTextBookmark */;
+			EE52DC1112E72EBC00F14497 /* PBXTextBookmark */ = EE52DC1112E72EBC00F14497 /* PBXTextBookmark */;
+			EE52DC1612E72EC200F14497 /* PlistBookmark */ = EE52DC1612E72EC200F14497 /* PlistBookmark */;
+			EEAEF5EB12E72F1C0074A2B9 /* PBXTextBookmark */ = EEAEF5EB12E72F1C0074A2B9 /* PBXTextBookmark */;
+			EEAEF5EC12E72F1C0074A2B9 /* PBXTextBookmark */ = EEAEF5EC12E72F1C0074A2B9 /* PBXTextBookmark */;
+			EEAEF5F512E72F520074A2B9 /* PBXTextBookmark */ = EEAEF5F512E72F520074A2B9 /* PBXTextBookmark */;
+			EEAEF5F612E72F520074A2B9 /* PBXTextBookmark */ = EEAEF5F612E72F520074A2B9 /* PBXTextBookmark */;
+			EEAEF5F712E72F520074A2B9 /* PBXTextBookmark */ = EEAEF5F712E72F520074A2B9 /* PBXTextBookmark */;
+			EEAEF60312E7300B0074A2B9 /* PBXTextBookmark */ = EEAEF60312E7300B0074A2B9 /* PBXTextBookmark */;
+			EEAEF60412E7300B0074A2B9 /* PBXBookmark */ = EEAEF60412E7300B0074A2B9 /* PBXBookmark */;
+			EEAEF60512E7300B0074A2B9 /* PBXBookmark */ = EEAEF60512E7300B0074A2B9 /* PBXBookmark */;
+			EEAEF60612E7300B0074A2B9 /* PBXBookmark */ = EEAEF60612E7300B0074A2B9 /* PBXBookmark */;
+			EEAEF60712E7300B0074A2B9 /* PBXBookmark */ = EEAEF60712E7300B0074A2B9 /* PBXBookmark */;
+			EEAEF60812E7300B0074A2B9 /* PBXTextBookmark */ = EEAEF60812E7300B0074A2B9 /* PBXTextBookmark */;
+			EEAEF60912E7300B0074A2B9 /* PBXTextBookmark */ = EEAEF60912E7300B0074A2B9 /* PBXTextBookmark */;
+			EEAEF61112E731390074A2B9 /* PBXTextBookmark */ = EEAEF61112E731390074A2B9 /* PBXTextBookmark */;
+			EEAEF61212E731390074A2B9 /* PlistBookmark */ = EEAEF61212E731390074A2B9 /* PlistBookmark */;
+			EEF2F49712E5DFA20009BE7B /* PBXBookmark */ = EEF2F49712E5DFA20009BE7B /* PBXBookmark */;
+		};
+		sourceControlManager = EEF2F44712E5D3570009BE7B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Punctuality-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 495}, {750, 558}}";
+		};
+	};
+	E70B809812E505B400B813FD /* Student.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 533}}";
+			sepNavSelRange = "{1023, 0}";
+			sepNavVisRange = "{186, 866}";
+			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
+		};
+	};
+	E70B809912E505B400B813FD /* Student.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1781}}";
+			sepNavSelRange = "{4093, 0}";
+			sepNavVisRange = "{3552, 831}";
+			sepNavWindowFrame = "{{38, 474}, {750, 558}}";
+		};
+	};
+	E70B809B12E505E300B813FD /* PunctualityItemCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 425}}";
+			sepNavSelRange = "{361, 0}";
+			sepNavVisRange = "{0, 388}";
+		};
+	};
+	E70B809C12E505E300B813FD /* PunctualityItemCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {733, 1053}}";
+			sepNavSelRange = "{2161, 0}";
+			sepNavVisRange = "{1546, 848}";
+		};
+	};
+	E70B80A112E5063D00B813FD /* StudentsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 425}}";
+			sepNavSelRange = "{423, 0}";
+			sepNavVisRange = "{0, 431}";
+		};
+	};
+	E70B80A212E5063D00B813FD /* StudentsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 3406}}";
+			sepNavSelRange = "{8229, 0}";
+			sepNavVisRange = "{7371, 989}";
+		};
+	};
+	E70B80C112E5082F00B813FD /* StudentDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1454, 403}}";
+			sepNavSelRange = "{976, 0}";
+			sepNavVisRange = "{0, 1029}";
+		};
+	};
+	E70B80C212E5082F00B813FD /* StudentDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {894, 3666}}";
+			sepNavSelRange = "{9764, 0}";
+			sepNavVisRange = "{9565, 203}";
+		};
+	};
+	E70B80E612E5090400B813FD /* FileHelpers.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 410}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 234}";
+		};
+	};
+	E70B80E712E5090400B813FD /* FileHelpers.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {629, 410}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 661}";
+		};
+	};
+	E70B817D12E5213800B813FD /* Background1.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 495}, {750, 558}}";
+		};
+	};
+	EE52DBF912E728C600F14497 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Punctuality-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/469235/Desktop/Punctuality/Punctuality-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	EE52DC0712E72EBC00F14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B809812E505B400B813FD /* Student.h */;
+		name = "Student.h: 38";
+		rLen = 0;
+		rLoc = 1023;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 186;
+	};
+	EE52DC0812E72EBC00F14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B809912E505B400B813FD /* Student.m */;
+		name = "Student.m: 122";
+		rLen = 0;
+		rLoc = 4093;
+		rType = 0;
+		vrLen = 831;
+		vrLoc = 3552;
+	};
+	EE52DC1012E72EBC00F14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80E712E5090400B813FD /* FileHelpers.m */;
+		name = "FileHelpers.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	EE52DC1112E72EBC00F14497 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80E612E5090400B813FD /* FileHelpers.h */;
+		name = "FileHelpers.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 234;
+		vrLoc = 0;
+	};
+	EE52DC1612E72EC200F14497 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Punctuality-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/469235/Desktop/Punctuality/Punctuality-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	EEAEF5EB12E72F1C0074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B809C12E505E300B813FD /* PunctualityItemCell.m */;
+		name = "PunctualityItemCell.m: 64";
+		rLen = 0;
+		rLoc = 2161;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 1546;
+	};
+	EEAEF5EC12E72F1C0074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B809B12E505E300B813FD /* PunctualityItemCell.h */;
+		name = "PunctualityItemCell.h: 19";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 388;
+		vrLoc = 0;
+	};
+	EEAEF5F512E72F520074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80A212E5063D00B813FD /* StudentsViewController.m */;
+		name = "StudentsViewController.m: 254";
+		rLen = 0;
+		rLoc = 8229;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 7371;
+	};
+	EEAEF5F612E72F520074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80A112E5063D00B813FD /* StudentsViewController.h */;
+		name = "StudentsViewController.h: 18";
+		rLen = 0;
+		rLoc = 423;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	EEAEF5F712E72F520074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */;
+		name = "PunctualityAppDelegate.m: 65";
+		rLen = 0;
+		rLoc = 1890;
+		rType = 0;
+		vrLen = 702;
+		vrLoc = 1268;
+	};
+	EEAEF60312E7300B0074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PunctualityAppDelegate.h */;
+		name = "PunctualityAppDelegate.h: 8";
+		rLen = 0;
+		rLoc = 166;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 0;
+	};
+	EEAEF60412E7300B0074A2B9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E70B822312E52B4500B813FD /* Background2.jpg */;
+	};
+	EEAEF60512E7300B0074A2B9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EE52DB9612E724AB00F14497 /* icon.png */;
+	};
+	EEAEF60612E7300B0074A2B9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E70B817D12E5213800B813FD /* Background1.jpg */;
+	};
+	EEAEF60712E7300B0074A2B9 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = E70B822612E52B9A00B813FD /* Background3.jpg */;
+	};
+	EEAEF60812E7300B0074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80C112E5082F00B813FD /* StudentDetailViewController.h */;
+		name = "StudentDetailViewController.h: 27";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 1029;
+		vrLoc = 0;
+	};
+	EEAEF60912E7300B0074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80C212E5082F00B813FD /* StudentDetailViewController.m */;
+		name = "StudentDetailViewController.m: 282";
+		rLen = 0;
+		rLoc = 9764;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 0;
+	};
+	EEAEF61112E731390074A2B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E70B80C212E5082F00B813FD /* StudentDetailViewController.m */;
+		name = "StudentDetailViewController.m: 282";
+		rLen = 0;
+		rLoc = 9764;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 3339;
+	};
+	EEAEF61212E731390074A2B9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Punctuality-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/469235/Desktop/Punctuality/Punctuality-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	EEF2F43212E5D34A0009BE7B /* Punctuality */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Punctuality;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EEF2F44712E5D3570009BE7B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	EEF2F44812E5D3570009BE7B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	EEF2F44A12E5D3DF0009BE7B /* Punctuality-iPad */ = {
+		activeExec = 0;
+		executables = (
+			EEF2F46612E5D3DF0009BE7B /* Punctuality-iPad */,
+		);
+	};
+	EEF2F46612E5D3DF0009BE7B /* Punctuality-iPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Punctuality-iPad";
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	EEF2F49712E5DFA20009BE7B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = EEF2F48612E5DD3D0009BE7B /* iPadBackground.jpg */;
+	};
+}

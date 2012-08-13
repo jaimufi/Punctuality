@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* PunctualityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		E70B809A12E505B400B813FD /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B809912E505B400B813FD /* Student.m */; };
+		E70B809D12E505E300B813FD /* PunctualityItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B809C12E505E300B813FD /* PunctualityItemCell.m */; };
+		E70B80A312E5063D00B813FD /* StudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80A212E5063D00B813FD /* StudentsViewController.m */; };
+		E70B80C412E5082F00B813FD /* StudentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80C212E5082F00B813FD /* StudentDetailViewController.m */; };
+		E70B80C512E5082F00B813FD /* StudentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E70B80C312E5082F00B813FD /* StudentDetailViewController.xib */; };
+		E70B80C712E5085B00B813FD /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B80C612E5085B00B813FD /* AddressBook.framework */; };
+		E70B80C912E5086100B813FD /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B80C812E5086100B813FD /* AddressBookUI.framework */; };
+		E70B80E812E5090400B813FD /* FileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80E712E5090400B813FD /* FileHelpers.m */; };
+		E70B817E12E5213800B813FD /* Background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B817D12E5213800B813FD /* Background1.jpg */; };
+		E70B81D112E5267500B813FD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B81D012E5267500B813FD /* MessageUI.framework */; };
+		E70B822412E52B4500B813FD /* Background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B822312E52B4500B813FD /* Background2.jpg */; };
+		E70B822712E52B9A00B813FD /* Background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B822612E52B9A00B813FD /* Background3.jpg */; };
+		EE52DB9712E724AB00F14497 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE52DB9612E724AB00F14497 /* icon.png */; };
+		EEF2F45012E5D3DF0009BE7B /* Background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B817D12E5213800B813FD /* Background1.jpg */; };
+		EEF2F45112E5D3DF0009BE7B /* Background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B822312E52B4500B813FD /* Background2.jpg */; };
+		EEF2F45212E5D3DF0009BE7B /* Background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E70B822612E52B9A00B813FD /* Background3.jpg */; };
+		EEF2F45412E5D3DF0009BE7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		EEF2F45512E5D3DF0009BE7B /* PunctualityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */; };
+		EEF2F45612E5D3DF0009BE7B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B809912E505B400B813FD /* Student.m */; };
+		EEF2F45712E5D3DF0009BE7B /* PunctualityItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B809C12E505E300B813FD /* PunctualityItemCell.m */; };
+		EEF2F45812E5D3DF0009BE7B /* StudentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80A212E5063D00B813FD /* StudentsViewController.m */; };
+		EEF2F45912E5D3DF0009BE7B /* StudentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80C212E5082F00B813FD /* StudentDetailViewController.m */; };
+		EEF2F45A12E5D3DF0009BE7B /* FileHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = E70B80E712E5090400B813FD /* FileHelpers.m */; };
+		EEF2F45C12E5D3DF0009BE7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		EEF2F45D12E5D3DF0009BE7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		EEF2F45E12E5D3DF0009BE7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		EEF2F45F12E5D3DF0009BE7B /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B80C612E5085B00B813FD /* AddressBook.framework */; };
+		EEF2F46012E5D3DF0009BE7B /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B80C812E5086100B813FD /* AddressBookUI.framework */; };
+		EEF2F46112E5D3DF0009BE7B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70B81D012E5267500B813FD /* MessageUI.framework */; };
+		EEF2F46A12E5D3E00009BE7B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF2F46812E5D3E00009BE7B /* MainWindow.xib */; };
+		EEF2F46B12E5D3E00009BE7B /* StudentDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF2F46912E5D3E00009BE7B /* StudentDetailViewController.xib */; };
+		EEF2F48712E5DD3D0009BE7B /* iPadBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEF2F48612E5DD3D0009BE7B /* iPadBackground.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* PunctualityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PunctualityAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PunctualityAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Punctuality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Punctuality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Punctuality_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Punctuality_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Punctuality-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Punctuality-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		E70B809812E505B400B813FD /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		E70B809912E505B400B813FD /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		E70B809B12E505E300B813FD /* PunctualityItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PunctualityItemCell.h; sourceTree = "<group>"; };
+		E70B809C12E505E300B813FD /* PunctualityItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PunctualityItemCell.m; sourceTree = "<group>"; };
+		E70B80A112E5063D00B813FD /* StudentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsViewController.h; sourceTree = "<group>"; };
+		E70B80A212E5063D00B813FD /* StudentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsViewController.m; sourceTree = "<group>"; };
+		E70B80C112E5082F00B813FD /* StudentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailViewController.h; sourceTree = "<group>"; };
+		E70B80C212E5082F00B813FD /* StudentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailViewController.m; sourceTree = "<group>"; };
+		E70B80C312E5082F00B813FD /* StudentDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudentDetailViewController.xib; path = Classes/StudentDetailViewController.xib; sourceTree = "<group>"; };
+		E70B80C612E5085B00B813FD /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		E70B80C812E5086100B813FD /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		E70B80E612E5090400B813FD /* FileHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileHelpers.h; path = ../FileHelpers.h; sourceTree = "<group>"; };
+		E70B80E712E5090400B813FD /* FileHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileHelpers.m; path = ../FileHelpers.m; sourceTree = "<group>"; };
+		E70B817D12E5213800B813FD /* Background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background1.jpg; sourceTree = "<group>"; };
+		E70B81D012E5267500B813FD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E70B822312E52B4500B813FD /* Background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background2.jpg; sourceTree = "<group>"; };
+		E70B822612E52B9A00B813FD /* Background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Background3.jpg; sourceTree = "<group>"; };
+		EE52DB9612E724AB00F14497 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		EEF2F46512E5D3DF0009BE7B /* Punctuality-Upgraded.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Punctuality-Upgraded.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF2F46812E5D3E00009BE7B /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "Resources-iPad/MainWindow.xib"; sourceTree = "<group>"; };
+		EEF2F46912E5D3E00009BE7B /* StudentDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StudentDetailViewController.xib; path = "Resources-iPad/Classes/StudentDetailViewController.xib"; sourceTree = "<group>"; };
+		EEF2F48612E5DD3D0009BE7B /* iPadBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPadBackground.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				E70B80C712E5085B00B813FD /* AddressBook.framework in Frameworks */,
+				E70B80C912E5086100B813FD /* AddressBookUI.framework in Frameworks */,
+				E70B81D112E5267500B813FD /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF2F45B12E5D3DF0009BE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF2F45C12E5D3DF0009BE7B /* Foundation.framework in Frameworks */,
+				EEF2F45D12E5D3DF0009BE7B /* UIKit.framework in Frameworks */,
+				EEF2F45E12E5D3DF0009BE7B /* CoreGraphics.framework in Frameworks */,
+				EEF2F45F12E5D3DF0009BE7B /* AddressBook.framework in Frameworks */,
+				EEF2F46012E5D3DF0009BE7B /* AddressBookUI.framework in Frameworks */,
+				EEF2F46112E5D3DF0009BE7B /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E70B809812E505B400B813FD /* Student.h */,
+				E70B809912E505B400B813FD /* Student.m */,
+				E70B809B12E505E300B813FD /* PunctualityItemCell.h */,
+				E70B809C12E505E300B813FD /* PunctualityItemCell.m */,
+				1D3623240D0F684500981E51 /* PunctualityAppDelegate.h */,
+				1D3623250D0F684500981E51 /* PunctualityAppDelegate.m */,
+				E70B80A112E5063D00B813FD /* StudentsViewController.h */,
+				E70B80A212E5063D00B813FD /* StudentsViewController.m */,
+				E70B80C112E5082F00B813FD /* StudentDetailViewController.h */,
+				E70B80C212E5082F00B813FD /* StudentDetailViewController.m */,
+				E70B80E612E5090400B813FD /* FileHelpers.h */,
+				E70B80E712E5090400B813FD /* FileHelpers.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Punctuality.app */,
+				EEF2F46512E5D3DF0009BE7B /* Punctuality-Upgraded.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				EEF2F46712E5D3DF0009BE7B /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Punctuality_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE52DB9612E724AB00F14497 /* icon.png */,
+				E70B817D12E5213800B813FD /* Background1.jpg */,
+				E70B822612E52B9A00B813FD /* Background3.jpg */,
+				E70B822312E52B4500B813FD /* Background2.jpg */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				E70B80C312E5082F00B813FD /* StudentDetailViewController.xib */,
+				8D1107310486CEB800E47090 /* Punctuality-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70B81D012E5267500B813FD /* MessageUI.framework */,
+				E70B80C612E5085B00B813FD /* AddressBook.framework */,
+				E70B80C812E5086100B813FD /* AddressBookUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF2F46712E5D3DF0009BE7B /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				EEF2F48612E5DD3D0009BE7B /* iPadBackground.jpg */,
+				EEF2F46812E5D3E00009BE7B /* MainWindow.xib */,
+				EEF2F46912E5D3E00009BE7B /* StudentDetailViewController.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Punctuality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Punctuality" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Punctuality;
+			productName = Punctuality;
+			productReference = 1D6058910D05DD3D006BFB54 /* Punctuality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF2F44A12E5D3DF0009BE7B /* Punctuality-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF2F46212E5D3DF0009BE7B /* Build configuration list for PBXNativeTarget "Punctuality-iPad" */;
+			buildPhases = (
+				EEF2F44B12E5D3DF0009BE7B /* Resources */,
+				EEF2F45312E5D3DF0009BE7B /* Sources */,
+				EEF2F45B12E5D3DF0009BE7B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Punctuality-iPad";
+			productName = Punctuality;
+			productReference = EEF2F46512E5D3DF0009BE7B /* Punctuality-Upgraded.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Punctuality" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Punctuality */,
+				EEF2F44A12E5D3DF0009BE7B /* Punctuality-iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				E70B80C512E5082F00B813FD /* StudentDetailViewController.xib in Resources */,
+				E70B817E12E5213800B813FD /* Background1.jpg in Resources */,
+				E70B822412E52B4500B813FD /* Background2.jpg in Resources */,
+				E70B822712E52B9A00B813FD /* Background3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF2F44B12E5D3DF0009BE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF2F45012E5D3DF0009BE7B /* Background1.jpg in Resources */,
+				EEF2F45112E5D3DF0009BE7B /* Background2.jpg in Resources */,
+				EEF2F45212E5D3DF0009BE7B /* Background3.jpg in Resources */,
+				EEF2F46A12E5D3E00009BE7B /* MainWindow.xib in Resources */,
+				EEF2F46B12E5D3E00009BE7B /* StudentDetailViewController.xib in Resources */,
+				EEF2F48712E5DD3D0009BE7B /* iPadBackground.jpg in Resources */,
+				EE52DB9712E724AB00F14497 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* PunctualityAppDelegate.m in Sources */,
+				E70B809A12E505B400B813FD /* Student.m in Sources */,
+				E70B809D12E505E300B813FD /* PunctualityItemCell.m in Sources */,
+				E70B80A312E5063D00B813FD /* StudentsViewController.m in Sources */,
+				E70B80C412E5082F00B813FD /* StudentDetailViewController.m in Sources */,
+				E70B80E812E5090400B813FD /* FileHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF2F45312E5D3DF0009BE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF2F45412E5D3DF0009BE7B /* main.m in Sources */,
+				EEF2F45512E5D3DF0009BE7B /* PunctualityAppDelegate.m in Sources */,
+				EEF2F45612E5D3DF0009BE7B /* Student.m in Sources */,
+				EEF2F45712E5D3DF0009BE7B /* PunctualityItemCell.m in Sources */,
+				EEF2F45812E5D3DF0009BE7B /* StudentsViewController.m in Sources */,
+				EEF2F45912E5D3DF0009BE7B /* StudentDetailViewController.m in Sources */,
+				EEF2F45A12E5D3DF0009BE7B /* FileHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Punctuality_Prefix.pch;
+				INFOPLIST_FILE = "Punctuality-Info.plist";
+				PRODUCT_NAME = Punctuality;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Punctuality_Prefix.pch;
+				INFOPLIST_FILE = "Punctuality-Info.plist";
+				PRODUCT_NAME = Punctuality;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EEF2F46312E5D3DF0009BE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Punctuality_Prefix.pch;
+				INFOPLIST_FILE = "Punctuality-Info.plist";
+				PRODUCT_NAME = "Punctuality-Upgraded";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EEF2F46412E5D3DF0009BE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Punctuality_Prefix.pch;
+				INFOPLIST_FILE = "Punctuality-Info.plist";
+				PRODUCT_NAME = "Punctuality-Upgraded";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Punctuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Punctuality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF2F46212E5D3DF0009BE7B /* Build configuration list for PBXNativeTarget "Punctuality-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF2F46312E5D3DF0009BE7B /* Debug */,
+				EEF2F46412E5D3DF0009BE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
